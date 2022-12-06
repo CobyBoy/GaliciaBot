@@ -33,3 +33,6 @@ Si no es el día de cobro, el script no corre. Para probar se puede reemplazar l
 if(True)
 // runs script
 ```
+
+Para correrlo desde la consola: py run.py
+Desde Windows se puede usar el TaskScheduler para correr el archivo cada cierto tiempo
