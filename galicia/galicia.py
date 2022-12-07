@@ -46,7 +46,7 @@ class Galicia(webdriver.Chrome):
             for cell in row.find_elements(By.CLASS_NAME, "detalle-movimiento"):
                 if (cell.text == const.TRANSFERENCIA_A_BUSCAR and not (depositado)):
                     print("Sueldo depositado")
-                    message = const.SUCCESS_MESSAGE + row.text.replace("\n", " ")
+                    message = const.SUCCESS_MESSAGE + row.text + "\n[Enviado desde Python bot]"
                     depositado = True
                     return message
         return message
