@@ -49,6 +49,7 @@ class Galicia(webdriver.Chrome):
                     message = const.SUCCESS_MESSAGE + row.text.replace("\n", " ")
                     depositado = True
                     return message
+        return message
 
     def __exit__(self):
         print("Exiting...")
