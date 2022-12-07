@@ -1,3 +1,4 @@
+# Bot que envía mensaje por telegram cuando cae el sueldillo porque Galicia no tiene notificaciones push
 
 Instalar [Python](https://www.python.org/downloads/)
 Instalar [pip](https://pip.pypa.io/en/stable/installing/]) si no se instaló
